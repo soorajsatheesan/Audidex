@@ -162,28 +162,5 @@ Configure the frontend to call the backend at `http://127.0.0.1:8000` (already u
   - Model input padding/truncation
   - `/predict` endpoint happy-path and error handling
 
-## 🐳 Docker (Optional)
-
-```dockerfile
-# Backend
-FROM python:3.12-slim AS backend
-WORKDIR /app
-COPY backend/requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
-COPY backend/ .
-EXPOSE 8000
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
-```
-
-```dockerfile
-# Frontend
-FROM node:18-alpine AS frontend
-WORKDIR /app
-COPY frontend/package*.json ./
-RUN npm ci
-COPY frontend/ .
-RUN npm run build
-```
-
 ## 📄 License
-MIT (or your preferred license). Update this section as needed.
+MIT
