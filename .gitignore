@@ -1,0 +1,73 @@
+# ---- General ----
+.DS_Store
+Thumbs.db
+*.log
+
+# ---- IDE / Editor ----
+.vscode/
+.idea/
+
+# ---- Cursor / tooling ----
+.cursor/
+.agent-tools/
+
+# ---- Python (backend) ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+*.egg-info/
+.python-version
+
+# Virtual environments
+venv/
+.venv/
+backend/.venv/
+
+# Env files / secrets
+.env
+.env.*
+backend/.env
+backend/.env.*
+
+# Build / cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# TensorFlow / ML artifacts
+*.tfrecord
+*.h5
+*.hdf5
+*.pb
+*.pbtxt
+
+# Model / scaler artifacts
+*.pkl
+*.joblib
+
+# Runtime / logs / temp
+logs/
+backend/temp/
+
+# Audio intermediate artifacts (if generated)
+*_16k.wav
+*_norm.wav
+*_mono.wav
+*_silence.wav
+*_2sec.wav
+
+# ---- Node/React (frontend) ----
+addfrontend/node_modules/
+addfrontend/build/
+addfrontend/dist/
+addfrontend/.next/
+addfrontend/.parcel-cache/
+addfrontend/.env
+addfrontend/.env.*
+addfrontend/npm-debug.log*
+addfrontend/yarn-debug.log*
+addfrontend/yarn-error.log*
+addfrontend/pnpm-debug.log*
+
+
