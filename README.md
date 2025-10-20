@@ -163,4 +163,12 @@ Configure the frontend to call the backend at `http://127.0.0.1:8000` (already u
   - `/predict` endpoint happy-path and error handling
 
 ## 📄 License
-MIT
+
+This project is licensed under the **MIT License**. You are free to use, copy, modify,
+merge, publish, distribute, sublicense, and/or sell copies of this software, subject to
+the inclusion of the copyright notice and permission notice.
+
+- **Permitted**: commercial use, modification, distribution, private use
+- **Limitations**: no liability, no warranty
+
+See the full license text in [`LICENSE`](./LICENSE).
