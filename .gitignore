@@ -29,6 +29,7 @@ backend/.venv/
 .env.*
 backend/.env
 backend/.env.*
+.hf_token
 
 # Build / cache
 .pytest_cache/
@@ -45,6 +46,9 @@ backend/.env.*
 # Model / scaler artifacts
 *.pkl
 *.joblib
+
+# Hugging Face model repo (clone); push from models/audidex/ with HF login
+models/
 
 # Runtime / logs / temp
 logs/
