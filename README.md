@@ -84,6 +84,14 @@ Audidex/
 └─ README.md
 ```
 
+## 📦 Models
+
+The pre-trained model (`optimized_audio_deepfake_detector.h5`) and scaler (`scaler.pkl`) are not included in this repository due to their size. You can download them from Hugging Face:
+
+- **Hugging Face**: [soorajsatheesan/audidex](https://huggingface.co/soorajsatheesan/audidex)
+
+Place the downloaded files in the `backend/` directory before running the application.
+
 ## ⚙️ Setup & Run
 
 ### 1) Backend
